@@ -66,3 +66,66 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.MuiDrawer-paper {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.MuiListItem-root {
+  padding: 15px 20px;
+}
+
+.MuiListItem-root:hover {
+  background-color: var(--button-hover);
+  color: white;
+}
+
+main {
+  margin-left: 240px;
+  padding: 20px;
+  background-color: var(--primary-bg);
+}
+
+.MuiPaper-root {
+  background-color: white;
+  color: var(--primary-color);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.MuiTypography-h5 {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.MuiTypography-h6 {
+  font-size: 1.2em;
+  color: #646cff;
+  margin-top: 8px;
+}
+
+.MuiDataGrid-root {
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.MuiDataGrid-cell {
+  font-size: 1em;
+}
+
+.MuiDataGrid-columnHeaders {
+  background-color: var(--button-bg);
+  color: white;
+}
+
+.MuiDataGrid-footerContainer {
+  background-color: var(--light-gray);
+  border-top: 1px solid #ddd;
+}
+
+.MuiCheckbox-root {
+  color: var(--accent-color) !important;
+}
